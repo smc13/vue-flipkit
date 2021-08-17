@@ -1,20 +1,22 @@
 {
   "name": "vue-flipkit",
-  "version": "0.0.1-pre21",
+  "version": "0.1.0",
   "description": "React flip toolkit for Vue 3",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "types": "dist/index.d.ts",
   "author": "Sam Cassar <sam.cassar13@gmail.com>",
   "license": "MIT",
   "scripts": {
-     "build": "rollup -c",
-     "watch": "rollup -cw"
+    "build": "rollup -c",
+    "watch": "rollup -cw"
   },
   "dependencies": {
     "flip-toolkit": "^7.0.13",
-    "vue": "^3.0.3"
+    "vue": "^3.2.3"
   },
   "devDependencies": {
     "rollup": "^2.36.2",
